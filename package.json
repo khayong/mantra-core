@@ -1,0 +1,58 @@
+{
+  "name": "mantra-core",
+  "version": "0.0.0-development",
+  "description": "Collection of Core APIs used in Mantra",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel --out-dir dist src",
+    "prebuild": "rimraf dist",
+    "watch:test": "mocha --require babel-core/register test/**/*.js -w",
+    "test": "mocha --require babel-core/register test/**/*.js",
+    "semantic-release": "semantic-release"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khayong/mantra-core.git"
+  },
+  "keywords": [
+    "mantra"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Tan Khay Ong <khayong@gmail.com> (https://github.com/khayong)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khayong/mantra-core/issues"
+  },
+  "homepage": "https://github.com/khayong/mantra-core#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.2",
+    "semantic-release": "^15.6.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "recompose": "^0.27.1"
+  },
+  "peerDependencies": {
+    "react": "^0.14.9 || ^15.3.0 || ^16.0.0",
+    "recompose": "^0.27.0"
+  }
+}
