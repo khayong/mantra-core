@@ -9,5 +9,5 @@ This repo contains the core APP api where we create an mantra app and initialize
 ### Installation
 
 ```
-npm i --save mantra-core react recompose
+npm i --save @khayong/mantra-core react recompose
 ```

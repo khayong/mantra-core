@@ -1,6 +1,6 @@
 {
-  "name": "mantra-core",
-  "version": "0.0.0-development",
+  "name": "@khayong/mantra-core",
+  "version": "1.0.0",
   "description": "Collection of Core APIs used in Mantra",
   "main": "dist/index.js",
   "scripts": {
@@ -46,10 +46,7 @@
     "semantic-release": "^15.6.0"
   },
   "dependencies": {
-    "prop-types": "^15.5.7",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "recompose": "^0.27.1"
+    "prop-types": "^15.5.7"
   },
   "peerDependencies": {
     "react": "^0.14.9 || ^15.3.0 || ^16.0.0",
