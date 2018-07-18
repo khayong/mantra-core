@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
 import {
-  compose,
   withContext,
   getContext,
   mapProps,
